@@ -14,8 +14,8 @@ docker run --network=host --name oe_sdk_ant --device /dev/tpm0:/dev/tpm0 --devic
 
 ```bash
 cd ~/code_dev
-git clone https://github.com/LiuTxxx/ENGRAFT.git
-cd ENGRAFT
+git clone https://github.com/LiuTxxx/ENGRAFT-TIKS.git
+cd ENGRAFT-TIKS
 # create key and file for memory sharing
 ./init_env.sh
 # build
