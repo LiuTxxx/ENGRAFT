@@ -19,7 +19,7 @@ endif()
 # endif()
 
 add_compile_definitions(USE_HOST_EVENT_DISPATCHER)
-add_compile_definitions(SGX_USE_REMOTE_ATTESTATION)
+# add_compile_definitions(SGX_USE_REMOTE_ATTESTATION)
 message(cpp_compiler: ${CMAKE_CXX_COMPILER})
 message(c_compiler: ${CMAKE_C_COMPILER})
 
